@@ -16,7 +16,8 @@ function useAdblockDetect() {
 
         document.body.appendChild(bait);
 
-        if (bait.offsetParent === null
+        if (window.document.body.getAttribute('abp') !== null
+            || bait.offsetParent === null
             || bait.offsetHeight == 0
             || bait.offsetWidth == 0
             || bait.clientHeight == 0
