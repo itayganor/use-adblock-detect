@@ -1,6 +1,6 @@
 {
   "name": "use-adblock-detect",
-  "description": "Soon",
+  "description": "A simple React hook to detect AdBlock",
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
@@ -22,5 +22,6 @@
   "files": [
     "dist/**/*"
   ],
+  "keywords": ["adblock", "detect"],
   "repository": "https://github.com/itayganor/use-adblock-detect"
 }
