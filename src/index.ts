@@ -20,6 +20,8 @@ function useAdblockDetect() {
             || bait.offsetParent === null
             || bait.offsetHeight == 0
             || bait.offsetWidth == 0
+            || bait.offsetLeft == 0
+		    || bait.offsetTop == 0
             || bait.clientHeight == 0
             || bait.clientWidth == 0) {
             setDetected(true);
